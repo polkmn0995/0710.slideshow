@@ -1,0 +1,45 @@
+@charset "utf-8";
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #ccc;
+  text-align: center;
+}
+#container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+#container > img {
+  width: 100%;
+  float: left;
+}
+button {
+  color: #fff;
+  background-color: transparent;
+  opacity: 0.5;
+  font-weight: 800;
+  font-size: 24px;
+  border: none;
+  color: #000;
+}
+.button1 {
+  position: absolute;
+  height: 100%;
+  width: 25px;
+}
+.button2 {
+  position: absolute;
+  height: 100%;
+  width: 25px;
+  right: 0;
+}
+button:hover {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
