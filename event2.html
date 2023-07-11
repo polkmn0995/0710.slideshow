@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/scroll.js" defer></script>
+    <title>스크롤시 헤더 배경 바꾸기</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .inner {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      /* header */
+      header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 50px;
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      header .logo_top {
+        padding: 10px 0 0 10px;
+        font-size: 1.2rem;
+        color: #fff;
+      }
+      header .logo_top small {
+        display: block;
+        font-size: 0.5rem;
+        color: #aaa;
+      }
+      header::after {
+        content: "";
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      }
+      .img_wrap {
+        width: 100%;
+      }
+      .img_wrap img {
+        width: 100%;
+      }
+      section p {
+        margin: 30px 0;
+        line-height: 1.7;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 헤더 -->
+    <header>
+      <div class="inner">
+        <div class="logo_top">
+          LOGO
+          <small> logo background</small>
+        </div>
+      </div>
+    </header>
+    <!-- 헤더 이미지 -->
+    <section class="img_wrap">
+      <img src="http://placehold.co/1200x400" alt="사진" />
+    </section>
+    <!-- 페이지 시작 -->
+    <section class="page-start">
+      <div class="inner">
+        <div class="inner">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+            necessitatibus saepe corrupti unde animi omnis tempora quis ipsa
+            nisi distinctio laudantium cumque dolore, ab architecto sapiente
+            aliquid? Perferendis, odit saepe? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Debitis aut numquam maxime laborum at
+            quae nulla iusto molestiae laboriosam. At quas cumque sit vitae.
+            Voluptatem atque modi debitis incidunt consequuntur. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Harum rem obcaecati
+            magni aperiam eligendi, soluta facilis quas tenetur minima
+            voluptatibus ea, voluptatum saepe esse architecto. Vitae perferendis
+            aut nulla sit Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Esse perspiciatis, perferendis, commodi dolore ad delectus
+            architecto quas cum suscipit facilis amet! Ipsum dicta impedit eum
+            facilis. Magni quaerat eos beatae.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+            necessitatibus saepe corrupti unde animi omnis tempora quis ipsa
+            nisi distinctio laudantium cumque dolore, ab architecto sapiente
+            aliquid? Perferendis, odit saepe? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Debitis aut numquam maxime laborum at
+            quae nulla iusto molestiae laboriosam. At quas cumque sit vitae.
+            Voluptatem atque modi debitis incidunt consequuntur. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Harum rem obcaecati
+            magni aperiam eligendi, soluta facilis quas tenetur minima
+            voluptatibus ea, voluptatum saepe esse architecto. Vitae perferendis
+            aut nulla sit Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Esse perspiciatis, perferendis, commodi dolore ad delectus
+            architecto quas cum suscipit facilis amet! Ipsum dicta impedit eum
+            facilis. Magni quaerat eos beatae.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+            necessitatibus saepe corrupti unde animi omnis tempora quis ipsa
+            nisi distinctio laudantium cumque dolore, ab architecto sapiente
+            aliquid? Perferendis, odit saepe? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Debitis aut numquam maxime laborum at
+            quae nulla iusto molestiae laboriosam. At quas cumque sit vitae.
+            Voluptatem atque modi debitis incidunt consequuntur. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Harum rem obcaecati
+            magni aperiam eligendi, soluta facilis quas tenetur minima
+            voluptatibus ea, voluptatum saepe esse architecto. Vitae perferendis
+            aut nulla sit Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Esse perspiciatis, perferendis, commodi dolore ad delectus
+            architecto quas cum suscipit facilis amet! Ipsum dicta impedit eum
+            facilis. Magni quaerat eos beatae.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+            necessitatibus saepe corrupti unde animi omnis tempora quis ipsa
+            nisi distinctio laudantium cumque dolore, ab architecto sapiente
+            aliquid? Perferendis, odit saepe? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Debitis aut numquam maxime laborum at
+            quae nulla iusto molestiae laboriosam. At quas cumque sit vitae.
+            Voluptatem atque modi debitis incidunt consequuntur. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Harum rem obcaecati
+            magni aperiam eligendi, soluta facilis quas tenetur minima
+            voluptatibus ea, voluptatum saepe esse architecto. Vitae perferendis
+            aut nulla sit Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Esse perspiciatis, perferendis, commodi dolore ad delectus
+            architecto quas cum suscipit facilis amet! Ipsum dicta impedit eum
+            facilis. Magni quaerat eos beatae.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+            necessitatibus saepe corrupti unde animi omnis tempora quis ipsa
+            nisi distinctio laudantium cumque dolore, ab architecto sapiente
+            aliquid? Perferendis, odit saepe? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Debitis aut numquam maxime laborum at
+            quae nulla iusto molestiae laboriosam. At quas cumque sit vitae.
+            Voluptatem atque modi debitis incidunt consequuntur. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Harum rem obcaecati
+            magni aperiam eligendi, soluta facilis quas tenetur minima
+            voluptatibus ea, voluptatum saepe esse architecto. Vitae perferendis
+            aut nulla sit Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Esse perspiciatis, perferendis, commodi dolore ad delectus
+            architecto quas cum suscipit facilis amet! Ipsum dicta impedit eum
+            facilis. Magni quaerat eos beatae.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+            necessitatibus saepe corrupti unde animi omnis tempora quis ipsa
+            nisi distinctio laudantium cumque dolore, ab architecto sapiente
+            aliquid? Perferendis, odit saepe? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Debitis aut numquam maxime laborum at
+            quae nulla iusto molestiae laboriosam. At quas cumque sit vitae.
+            Voluptatem atque modi debitis incidunt consequuntur. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Harum rem obcaecati
+            magni aperiam eligendi, soluta facilis quas tenetur minima
+            voluptatibus ea, voluptatum saepe esse architecto. Vitae perferendis
+            aut nulla sit Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Esse perspiciatis, perferendis, commodi dolore ad delectus
+            architecto quas cum suscipit facilis amet! Ipsum dicta impedit eum
+            facilis. Magni quaerat eos beatae.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+            necessitatibus saepe corrupti unde animi omnis tempora quis ipsa
+            nisi distinctio laudantium cumque dolore, ab architecto sapiente
+            aliquid? Perferendis, odit saepe? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Debitis aut numquam maxime laborum at
+            quae nulla iusto molestiae laboriosam. At quas cumque sit vitae.
+            Voluptatem atque modi debitis incidunt consequuntur. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Harum rem obcaecati
+            magni aperiam eligendi, soluta facilis quas tenetur minima
+            voluptatibus ea, voluptatum saepe esse architecto. Vitae perferendis
+            aut nulla sit Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Esse perspiciatis, perferendis, commodi dolore ad delectus
+            architecto quas cum suscipit facilis amet! Ipsum dicta impedit eum
+            facilis. Magni quaerat eos beatae.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+            necessitatibus saepe corrupti unde animi omnis tempora quis ipsa
+            nisi distinctio laudantium cumque dolore, ab architecto sapiente
+            aliquid? Perferendis, odit saepe? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Debitis aut numquam maxime laborum at
+            quae nulla iusto molestiae laboriosam. At quas cumque sit vitae.
+            Voluptatem atque modi debitis incidunt consequuntur. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Harum rem obcaecati
+            magni aperiam eligendi, soluta facilis quas tenetur minima
+            voluptatibus ea, voluptatum saepe esse architecto. Vitae perferendis
+            aut nulla sit Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Esse perspiciatis, perferendis, commodi dolore ad delectus
+            architecto quas cum suscipit facilis amet! Ipsum dicta impedit eum
+            facilis. Magni quaerat eos beatae.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
